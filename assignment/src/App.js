@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
-import { useRef } from "react";
+
 import "./App.css";
 
 function App() {
-  const myref = useRef();
+ 
   return (
     <div className="App">
-      <h1 ref={myref}>Hello</h1>
-      <button onClick={() => (myref.current.innerText = "Hello World!")}>
+      <h1 >Hello</h1>
+      <button >
         Click Me !
       </button>
     </div>
